@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(var(--corPrincipal) 75%, var(--corSecundaria));   
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 980px;
+    width: 100%;
+    
+}
+
+:root {
+    --corPrincipal: #fbc531;
+    --corSecundaria: #dcdde1;
+    --corTextoPrincipal: #000;
+    --corTextoSecundaria: #fff;
+    --corButton: #e1b12c;
+}
